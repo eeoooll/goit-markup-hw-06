@@ -737,6 +737,12 @@ fill: var(--accent-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
   cursor: pointer;
+  transition: var(--transition-icon);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus{
+  fill: var(--accent-color);
 }
 
 .backdrop.is-hidden{
